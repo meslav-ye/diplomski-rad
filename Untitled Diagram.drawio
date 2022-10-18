@@ -1,1 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T09:54:59.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="18.0.0" etag="4iqEmtn2PQ2g-ODFPn9u" type="github"><diagram id="PIEgBhfu_CBA6pbGiSpR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-18T10:11:06.947Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Dt4y3pl3jDq8JfQXqpZu" version="18.0.0" type="github">
+  <diagram id="PIEgBhfu_CBA6pbGiSpR" name="Page-1">
+    <mxGraphModel dx="4642" dy="2222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-1" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="-40" width="1030" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-4" value="Cloud" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="130" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-8" value="GitHub" style="swimlane;fontSize=20;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="60" width="665" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-6" value="Terraform scirpts" style="label;whiteSpace=wrap;html=1;image=https://www.pngitem.com/pimgs/m/513-5132146_terraform-icon-png-transparent-png.png;fontSize=20;fillColor=none;" vertex="1" parent="75SUVe3WlJ5UyMw3YIlO-8">
+          <mxGeometry x="475" y="40" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-19" value="Helm Charts Aplikacije" style="label;whiteSpace=wrap;html=1;image=https://cncf-branding.netlify.app/img/projects/helm/icon/color/helm-icon-color.png;fontSize=20;fillColor=none;" vertex="1" parent="75SUVe3WlJ5UyMw3YIlO-8">
+          <mxGeometry x="45" y="380" width="155" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-23" value="GitHub Actions" style="label;whiteSpace=wrap;html=1;image=https://avatars.githubusercontent.com/u/44036562?s=280&amp;v=4;fontSize=20;fillColor=none;" vertex="1" parent="75SUVe3WlJ5UyMw3YIlO-8">
+          <mxGeometry x="35" y="50" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-10" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.88;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;elbow=vertical;" edge="1" parent="1" source="75SUVe3WlJ5UyMw3YIlO-6" target="75SUVe3WlJ5UyMw3YIlO-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="-60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-14" value="Kubernetes" style="swimlane;fontSize=20;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="190" width="680" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-17" value="Jednostavna aplikacija" style="html=1;whiteSpace=wrap;container=1;recursiveResize=0;collapsible=0;fontSize=20;fillColor=none;" vertex="1" parent="75SUVe3WlJ5UyMw3YIlO-14">
+          <mxGeometry x="20" y="230" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="75SUVe3WlJ5UyMw3YIlO-16" target="75SUVe3WlJ5UyMw3YIlO-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-16" value="ArgoCD" style="label;whiteSpace=wrap;html=1;image=https://cncf-branding.netlify.app/img/projects/argo/icon/color/argo-icon-color.png;fontSize=20;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="240" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="75SUVe3WlJ5UyMw3YIlO-11" target="75SUVe3WlJ5UyMw3YIlO-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-11" value="Helm charts&lt;br&gt;Repository" style="label;whiteSpace=wrap;html=1;image=https://cncf-branding.netlify.app/img/projects/helm/icon/color/helm-icon-color.png;fontSize=20;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="730" width="175" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="75SUVe3WlJ5UyMw3YIlO-19" target="75SUVe3WlJ5UyMw3YIlO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-24" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="75SUVe3WlJ5UyMw3YIlO-23" target="75SUVe3WlJ5UyMw3YIlO-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
