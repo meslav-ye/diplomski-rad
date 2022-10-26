@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T11:42:27.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="3BhAz-1Q2gcdu5wZt3ZZ" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T11:42:51.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="fhLyjjtfy1O6uhInGbYo" version="20.4.2" type="github">
   <diagram id="PIEgBhfu_CBA6pbGiSpR" name="Page-1">
     <mxGraphModel dx="4797" dy="2221" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="t_ysgLBPMPihOiSmYnP--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="75SUVe3WlJ5UyMw3YIlO-8" source="75SUVe3WlJ5UyMw3YIlO-6" target="75SUVe3WlJ5UyMw3YIlO-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-6" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Terraform scirpts&lt;/font&gt;" style="label;whiteSpace=wrap;html=1;image=https://www.pngitem.com/pimgs/m/513-5132146_terraform-icon-png-transparent-png.png;fontSize=20;fillColor=none;" parent="75SUVe3WlJ5UyMw3YIlO-8" vertex="1">
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-6" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Terraform skripte&lt;/font&gt;" style="label;whiteSpace=wrap;html=1;image=https://www.pngitem.com/pimgs/m/513-5132146_terraform-icon-png-transparent-png.png;fontSize=20;fillColor=none;" parent="75SUVe3WlJ5UyMw3YIlO-8" vertex="1">
           <mxGeometry x="475" y="40" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="75SUVe3WlJ5UyMw3YIlO-19" value="Helm Charts Aplikacije" style="label;whiteSpace=wrap;html=1;image=https://cncf-branding.netlify.app/img/projects/helm/icon/color/helm-icon-color.png;fontSize=20;fillColor=none;" parent="75SUVe3WlJ5UyMw3YIlO-8" vertex="1">
