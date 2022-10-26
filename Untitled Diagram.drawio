@@ -1,61 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T10:11:06.947Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Dt4y3pl3jDq8JfQXqpZu" version="18.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T08:50:19.512Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="A9pSc4VClFz731FH_oAd" version="20.4.2" type="github">
   <diagram id="PIEgBhfu_CBA6pbGiSpR" name="Page-1">
-    <mxGraphModel dx="4642" dy="2222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3776" dy="2194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-1" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-1" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-930" y="-40" width="1030" height="780" as="geometry" />
         </mxCell>
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-4" value="Cloud" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="130" width="70" height="30" as="geometry" />
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-4" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;Cloud (*AWS)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-505" y="125" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-8" value="GitHub" style="swimlane;fontSize=20;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-8" value="GitHub" style="swimlane;fontSize=23;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="425" y="60" width="665" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-6" value="Terraform scirpts" style="label;whiteSpace=wrap;html=1;image=https://www.pngitem.com/pimgs/m/513-5132146_terraform-icon-png-transparent-png.png;fontSize=20;fillColor=none;" vertex="1" parent="75SUVe3WlJ5UyMw3YIlO-8">
+        <mxCell id="t_ysgLBPMPihOiSmYnP--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="75SUVe3WlJ5UyMw3YIlO-8" source="75SUVe3WlJ5UyMw3YIlO-6" target="75SUVe3WlJ5UyMw3YIlO-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-6" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Terraform scirpts&lt;/font&gt;" style="label;whiteSpace=wrap;html=1;image=https://www.pngitem.com/pimgs/m/513-5132146_terraform-icon-png-transparent-png.png;fontSize=20;fillColor=none;" parent="75SUVe3WlJ5UyMw3YIlO-8" vertex="1">
           <mxGeometry x="475" y="40" width="165" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-19" value="Helm Charts Aplikacije" style="label;whiteSpace=wrap;html=1;image=https://cncf-branding.netlify.app/img/projects/helm/icon/color/helm-icon-color.png;fontSize=20;fillColor=none;" vertex="1" parent="75SUVe3WlJ5UyMw3YIlO-8">
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-19" value="Helm Charts Aplikacije" style="label;whiteSpace=wrap;html=1;image=https://cncf-branding.netlify.app/img/projects/helm/icon/color/helm-icon-color.png;fontSize=20;fillColor=none;" parent="75SUVe3WlJ5UyMw3YIlO-8" vertex="1">
           <mxGeometry x="45" y="380" width="155" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-23" value="GitHub Actions" style="label;whiteSpace=wrap;html=1;image=https://avatars.githubusercontent.com/u/44036562?s=280&amp;v=4;fontSize=20;fillColor=none;" vertex="1" parent="75SUVe3WlJ5UyMw3YIlO-8">
+        <mxCell id="t_ysgLBPMPihOiSmYnP--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=25;" edge="1" parent="75SUVe3WlJ5UyMw3YIlO-8" source="75SUVe3WlJ5UyMw3YIlO-23" target="75SUVe3WlJ5UyMw3YIlO-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-23" value="GitHub Actions" style="label;whiteSpace=wrap;html=1;image=https://avatars.githubusercontent.com/u/44036562?s=280&amp;v=4;fontSize=20;fillColor=none;" parent="75SUVe3WlJ5UyMw3YIlO-8" vertex="1">
           <mxGeometry x="35" y="50" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-10" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.88;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;elbow=vertical;" edge="1" parent="1" source="75SUVe3WlJ5UyMw3YIlO-6" target="75SUVe3WlJ5UyMw3YIlO-1">
+        <mxCell id="t_ysgLBPMPihOiSmYnP--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=25;" edge="1" parent="75SUVe3WlJ5UyMw3YIlO-8" source="t_ysgLBPMPihOiSmYnP--3" target="75SUVe3WlJ5UyMw3YIlO-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ysgLBPMPihOiSmYnP--3" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Kod aplikacije&lt;/font&gt;" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;fillColor=none;" vertex="1" parent="75SUVe3WlJ5UyMw3YIlO-8">
+          <mxGeometry x="345" y="380" width="255" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ysgLBPMPihOiSmYnP--11" value="Akitviranje cjevovoda" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=25;" vertex="1" parent="75SUVe3WlJ5UyMw3YIlO-8">
+          <mxGeometry x="175" y="120" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ysgLBPMPihOiSmYnP--17" value="Automatska promjena" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=25;rotation=0;" vertex="1" parent="75SUVe3WlJ5UyMw3YIlO-8">
+          <mxGeometry x="25" y="200" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-10" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.88;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;elbow=vertical;" parent="1" source="75SUVe3WlJ5UyMw3YIlO-6" target="75SUVe3WlJ5UyMw3YIlO-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="500" y="-60" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-14" value="Kubernetes" style="swimlane;fontSize=20;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-14" value="Kubernetes" style="swimlane;fontSize=22;fillColor=none;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="-740" y="190" width="680" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-17" value="Jednostavna aplikacija" style="html=1;whiteSpace=wrap;container=1;recursiveResize=0;collapsible=0;fontSize=20;fillColor=none;" vertex="1" parent="75SUVe3WlJ5UyMw3YIlO-14">
-          <mxGeometry x="20" y="230" width="230" height="70" as="geometry" />
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-17" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Aplikacija&lt;/font&gt;" style="html=1;whiteSpace=wrap;container=1;recursiveResize=0;collapsible=0;fontSize=20;fillColor=none;" parent="75SUVe3WlJ5UyMw3YIlO-14" vertex="1">
+          <mxGeometry x="360" y="190" width="230" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="75SUVe3WlJ5UyMw3YIlO-16" target="75SUVe3WlJ5UyMw3YIlO-19">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="t_ysgLBPMPihOiSmYnP--21" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Automatska isporuka nove verzije&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=25;" vertex="1" parent="75SUVe3WlJ5UyMw3YIlO-14">
+          <mxGeometry x="15" y="220" width="350" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-16" value="ArgoCD" style="label;whiteSpace=wrap;html=1;image=https://cncf-branding.netlify.app/img/projects/argo/icon/color/argo-icon-color.png;fontSize=20;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="240" width="140" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="75SUVe3WlJ5UyMw3YIlO-11" target="75SUVe3WlJ5UyMw3YIlO-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-11" value="Helm charts&lt;br&gt;Repository" style="label;whiteSpace=wrap;html=1;image=https://cncf-branding.netlify.app/img/projects/helm/icon/color/helm-icon-color.png;fontSize=20;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-930" y="730" width="175" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="75SUVe3WlJ5UyMw3YIlO-19" target="75SUVe3WlJ5UyMw3YIlO-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="75SUVe3WlJ5UyMw3YIlO-24" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="75SUVe3WlJ5UyMw3YIlO-23" target="75SUVe3WlJ5UyMw3YIlO-16">
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" parent="1" source="75SUVe3WlJ5UyMw3YIlO-16" target="75SUVe3WlJ5UyMw3YIlO-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="150" />
+              <mxPoint x="510" y="310" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="t_ysgLBPMPihOiSmYnP--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=25;" edge="1" parent="1" source="75SUVe3WlJ5UyMw3YIlO-16" target="75SUVe3WlJ5UyMw3YIlO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-16" value="ArgoCD" style="label;whiteSpace=wrap;html=1;image=https://cncf-branding.netlify.app/img/projects/argo/icon/color/argo-icon-color.png;fontSize=20;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-720" y="240" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="75SUVe3WlJ5UyMw3YIlO-11" target="75SUVe3WlJ5UyMw3YIlO-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75SUVe3WlJ5UyMw3YIlO-11" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Helm charts&lt;br&gt;Repository&lt;/font&gt;" style="label;whiteSpace=wrap;html=1;image=https://cncf-branding.netlify.app/img/projects/helm/icon/color/helm-icon-color.png;fontSize=20;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-930" y="730" width="175" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ysgLBPMPihOiSmYnP--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=25;" edge="1" parent="1" source="t_ysgLBPMPihOiSmYnP--4" target="t_ysgLBPMPihOiSmYnP--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ysgLBPMPihOiSmYnP--4" value="" style="shape=actor;whiteSpace=wrap;html=1;fontSize=25;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="780" width="162.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ysgLBPMPihOiSmYnP--6" value="Programer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="711.25" y="930" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ysgLBPMPihOiSmYnP--9" value="Učitavanje koda" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="770" y="640" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ysgLBPMPihOiSmYnP--13" value="Slušanje promjene" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ysgLBPMPihOiSmYnP--23" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Dizanje ArgoCD alata&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1095" y="520" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ysgLBPMPihOiSmYnP--24" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Dizanje infrastrukture&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="355" y="-100" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ysgLBPMPihOiSmYnP--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.908;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=22;" edge="1" parent="1" source="75SUVe3WlJ5UyMw3YIlO-23" target="75SUVe3WlJ5UyMw3YIlO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ysgLBPMPihOiSmYnP--26" value="Automatsko dizanje infrastrukture" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="350" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
